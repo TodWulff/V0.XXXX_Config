@@ -1,0 +1,33 @@
+##################################
+Z Endstop Location (V0)
+##################################
+The V0 uses the bed assembly to contact the Z endstop switch via an adjustable screw in the T8 nut block.
+Ideally the activation of that switch will be at the exact bed height at which your nozzle also reaches the bed surface.
+However there is a window of travel from the moment that switch is activated to the point at which that switch bottoms out,
+this window is about 0.6mm. by using the adjustable screw in the T8 nut block and by being able to physically move the endstop
+switch up or down along the extrusion you need to position these so that the point at which your nozzle touches the bed (your 
+Z0 point) happens within that 0.6mm window of travel. You can then use the Z_ENDSTOP_CALIBRATEroutine to then tell your printer
+where within that window you land, or in other words, what the offset between the z0 position and the endstop trigger point is.
+
+##################################
+Bed Screws (V0)
+##################################
+The V0 uses manual bed leveling. The bed is small enough and thick enough that a mesh or other types of per print
+leveling should not be needed. There is a macro in Klipper to help with the manual bed leveling process: BED_SCREWS_ADJUST
+
+This tool will move the printer’s nozzle to each screw XY location and then move the nozzle to a Z=0.3 height.
+At this point one can use the “paper test” to adjust the bed screw directly under the nozzle.
+See the information described in “the paper test”, but adjust the bed screw instead of commanding the nozzle to different heights.
+Adjust the bed screw until there is a small amount of friction when pushing the paper back and forth.
+This process will move all three mounting points of your bed closer to the nozzle so it is critical that you re-run the Z offset
+adjust after completing this section.
+
+Once the screw is adjusted so that a small amount of friction is felt, run either the ACCEPT or ADJUSTED command. 
+Use the ADJUSTED command if the bed screw needed an adjustment (typically anything more than about 1/8th of a turn of the screw).
+Use the ACCEPT command if no significant adjustment is necessary. Both commands will cause the tool to proceed to the next screw.
+(When an ADJUSTED command is used, the tool will schedule an additional cycle of bed screw adjustments; the tool completes
+successfully when all bed screws are verified to not require any significant adjustments.) One can use the ABORT command to exit
+the tool early.
+
+After the BED_SCREWS_ADJUST command has been completed rerun the Z_ENDSTOP_CALIBRATE command to to bring your nozzle to the correct
+Z=0 position.
