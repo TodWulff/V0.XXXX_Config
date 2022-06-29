@@ -13,10 +13,11 @@ Useful Links:
 
 Summer 2022 Build:  Order placed from Mellow3D via AliExpress on 28 May 2022.  Received Kit 12 Jun 2022.  First print 21 Jun 2022.
 
-Voron Kit Feedback Server Invite:  https://bit.ly/3igPTpJ (resolves to https://discord.com/invite/RyAGnb9y3G)
-My Mellow 3D printer kit feedback ch: https://discord.com/channels/877549316913365083/980201614906368020
-My Formbot printer kit feedback ch: https://discord.com/channels/877549316913365083/885942140012744744
-My ERCF DFH Kit feedback ch: https://discord.com/channels/877549316913365083/928716501480009768
+Voron Kit Feedback Server Invite:  
+ - https://bit.ly/3igPTpJ (resolves to https://discord.com/invite/RyAGnb9y3G)
+ - My Mellow 3D printer kit feedback ch: https://discord.com/channels/877549316913365083/980201614906368020
+ - My Formbot printer kit feedback ch: https://discord.com/channels/877549316913365083/885942140012744744
+ - My ERCF DFH Kit feedback ch: https://discord.com/channels/877549316913365083/928716501480009768
 
 FYSA, as is the case with my other printer, be advised that these configs are a big Work In Process (WIP).  The printer is a new
 build in June 2022.  Just so y'all know about same...  Usual disclaimers apply.  YMMV.  blah blah blah.
