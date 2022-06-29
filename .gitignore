@@ -3,3 +3,4 @@ _globals.pvar
 imgs/
 v0.XXXX.twilio_guidance
 .twiliorc
+.gitignore
