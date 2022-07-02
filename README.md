@@ -1,4 +1,4 @@
-# V0.XXXX_Config
+# Skippy_Config
 Repo for the Klipper Config directory of Voron 0.1 SN XXXX.  These works are largely drawn from, and customized for the v0.1 with a Pi 4 + BTT SKR Pico, based on previous works https://github.com/TodWulff/V2.2526_Config/, name3ly a Voron 2.4 350^3 model built in 4Q21 that is also running klipper.
 
 Useful Links:
