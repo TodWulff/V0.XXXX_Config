@@ -3,6 +3,6 @@ _globals.pvar
 imgs/
 v0.XXXX.twilio_guidance
 .twiliorc
-.gitignore
-stock_configs/
+secrets.conf
+shell_command.cfg
 
